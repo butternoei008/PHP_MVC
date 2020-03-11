@@ -1,9 +1,9 @@
 <?php
 
 Route::set('about-us', function() {
-   echo "about-usssss";
+   AboutUs::createView();
 });
 
-Route::set('home-us', function() {
-   echo "about-usssss";
+Route::set('contact-us', function() {
+   ContactUs::CreateView();
 });
